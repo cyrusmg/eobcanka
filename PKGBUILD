@@ -1,16 +1,16 @@
 # Maintainer: Cyrusmg <aur@kulovany.net>
 pkgname=eobcanka
-pkgver=3.4.2
+pkgver=3.4.3
 pkgrel=1
 pkgdesc="eObcanka software for Czech Citizen Portal"
 arch=('i686' 'x86_64' 'mips64el' 'armv6h' 'armv7h' 'arm' 'aarch64')
-url="https://info.identitaobcana.cz"
+url="https://info.identita.gov.cz"
 license=('custom')
 depends=('pacman>=5.2'
          'pcsclite')
 optdepends=('ccid: Smart Card Interface Devices driver'
     'opensc: Tools and libraries for smart cards')
-source=(https://info.identitaobcana.cz/Download/eObcanka.deb)
+source=(https://info.identita.gov.cz/Download/eObcanka.deb)
 options=('!strip')
 
 package ()
@@ -23,6 +23,6 @@ post_install ()
   echo "If your reader is not being recognized, run systemctl start pcscd.socket and pcscd.service"
 }
 
-sha1sums=('899d0e86ff656cf12a32110fce0614646737f8d0')
+sha1sums=('10eaa42f4c317c0d1e740d93e0f8c9e4666ccf73')
 
 # vim:set ts=2 sw=2 et:
