@@ -10,7 +10,7 @@ depends=('pacman>=5.2'
          'pcsclite')
 optdepends=('ccid: Smart Card Interface Devices driver'
     'opensc: Tools and libraries for smart cards')
-source=(https://info.identita.gov.cz/Download/eObcanka.deb)
+source=("${pkgname}-${pkgver}.deb"::"https://info.identita.gov.cz/Download/eObcanka.deb")
 options=('!strip')
 
 package ()

@@ -16,7 +16,7 @@ pkgbase = eobcanka
 	optdepends = ccid: Smart Card Interface Devices driver
 	optdepends = opensc: Tools and libraries for smart cards
 	options = !strip
-	source = https://info.identita.gov.cz/Download/eObcanka.deb
+	source = eobcanka-3.5.0.deb::https://info.identita.gov.cz/Download/eObcanka.deb
 	sha1sums = fde07c0f385ddaa5a57816457ef657369d0a4ba0
 
 pkgname = eobcanka
